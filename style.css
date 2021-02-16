@@ -1,0 +1,41 @@
+* {
+  font-weight: bold;
+}
+
+#banner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#banner,
+#footer {
+  background-color: #4d3300;
+  color: white;
+}
+
+#left {
+  background-color: orange;
+}
+
+#top {
+  background-color: darksalmon;
+}
+
+@media (max-width: 767px) {
+  #left {
+    display: none;
+  }
+}
+
+#par {
+  background-color: teal;
+}
+
+#impar {
+  background-color: palevioletred;
+}
+
+#content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
